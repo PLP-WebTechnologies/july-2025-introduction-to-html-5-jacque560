@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to My Accessible and SEO-Friendly Website. Learn more about semantic HTML structure and best practices.">
+  <meta name="author" content="Jacky Fridah">
+  <title>My Accessible Semantic Website</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>My Accessible Semantic Website</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>My name is Jacky Fridah, and I created this semantic HTML5 page as part of the Assignment.</p>
+      <img src="profile.jpg" alt="Team photo of web developers" />
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article aria-labelledby="service1-heading">
+        <h3 id="service1-heading">Web Development</h3>
+        <p>We create modern, accessible websites using semantic HTML5 elements.</p>
+      </article>
+      <article aria-labelledby="service2-heading">
+        <h3 id="service2-heading">Accessibility Audits</h3>
+        <p>We review your site to ensure it meets accessibility standards for all users.</p>
+      </article>
+    </section>
+
+    <aside aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Tips for Accessibility</h2>
+      <ul>
+        <li>Use semantic tags like <code>&lt;main&gt;</code> and <code>&lt;article&gt;</code>.</li>
+        <li>Always include <code>alt</code> text for images.</li>
+        <li>Use proper heading levels for screen readers.</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Jacky Fridah. All rights reserved.</p>
+    <p><a href="mailto: jackyfridah382@gmail.com">Email Us</a></p>
+  </footer>
+
+</body>
+</html>
